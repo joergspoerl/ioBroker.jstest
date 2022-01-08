@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "jstest",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "jstest",
+		"titleLang": {
+			"en": "jstest",
+			"de": "jstest",
+			"ru": "jstest",
+			"pt": "jstest",
+			"nl": "jst",
+			"fr": "jstest",
+			"it": "jstest",
+			"es": "jstest",
+			"pl": "jtest",
+			"zh-cn": "jstest"
+		},
+		"desc": {
+			"en": "jstest",
+			"de": "jstest",
+			"ru": "jstest",
+			"pt": "jstest",
+			"nl": "jst",
+			"fr": "jstest",
+			"it": "jstest",
+			"es": "jstest",
+			"pl": "jtest",
+			"zh-cn": "jstest"
+		},
+		"authors": [
+			"js <joerg.spoerl@gmx.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "jstest.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/joergspoerl/ioBroker.jstest/main/admin/jstest.png",
+		"readme": "https://github.com/joergspoerl/ioBroker.jstest/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
